@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollah Kelvin | Official Author Website</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #d35400;
+            --bg: #f9f9f9;
+            --text: #333;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-style: italic;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        .book-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .book-card {
+            border: 1px solid #ddd;
+            padding: 1.5rem;
+            border-radius: 6px;
+            background: #fff;
+        }
+        .book-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: var(--accent);
+            margin: 0 0 0.5rem 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background 0.2s;
+        }
+        .cta-button:hover {
+            background-color: #b33900;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pollah Kelvin</h1>
+        <p>Author</p>
+    </header>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About the Author</h2>
+            <p>Welcome to my official website. I am Pollah Kelvin, a passionate writer dedicated to crafting compelling narratives and exploring profound themes through the written word. Join me on this literary journey.</p>
+        </section>
+
+        <!-- Books Section -->
+        <section id="books">
+            <h2>Featured Books</h2>
+            <div class="book-grid">
+                <!-- Book 1 -->
+                <div class="book-card">
+                    <div class="book-title">The Mathew Effect</div>
+                    <p><em>Published: 2026</em></p>
+                    <p>Explore how Henry Morton divulges into why the rich get richer. Or, is it the reason why the poor get poorer?</p>
+                    <a href="https://www.betterworldbooks.com/author/pollah-kelvin/8422934?srsltid=AfmBOopYN8ciSoxrvSjsXRU_qm-XbOst8-YegrZu9GnCEvU09N2wkhaw" class="cta-button">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Connect With Me</h2>
+            <p>For inquiries, review copies, or media requests, please reach out via email:</p>
+            <p><strong>Email:</strong> pollahkelvin@gmail.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pollah Kelvin. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
